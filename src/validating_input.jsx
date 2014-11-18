@@ -34,7 +34,7 @@ module.exports = React.createClass({
         onBlur={this.handleBlur}
         onChange={this.handleChange}
         ref="input"
-        hasFeedback=this.props.hasFeedback ? true : false
+        hasFeedback={this.props.hasFeedback ? true : false}
         help={hasErrors ? _.first(this.props.errors) : null}
         bsStyle={hasErrors ? this.props.errorStyle : null} />
     );
