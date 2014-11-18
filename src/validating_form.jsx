@@ -1,6 +1,5 @@
 /** @jsx React.DOM */
 var React = require('react/addons');
-var reactBootstrap = require('react-bootstrap');
 var _ = require('lodash');
 var cx = React.addons.classSet;
 var cloneWithProps = React.addons.cloneWithProps;

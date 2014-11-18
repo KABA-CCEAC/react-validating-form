@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 var React = require('react');
-var Input = require('react-bootstrap').Input;
+var Input = require('./input');
 var _ = require('lodash');
 
 module.exports = React.createClass({
