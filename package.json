@@ -2,7 +2,7 @@
   "name": "react-validating-form",
   "description": "A validating form for use with React",
   "author": "Adam Nalisnick <theadam4257@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "index.js",
   "repository": {
@@ -16,8 +16,10 @@
     "form"
   ],
   "dependencies": {
-    "lodash": "^2.4.1",
-    "react": "^0.11.1"
+    "lodash": "^2.4.1"
+  },
+  "peerDependencies": {
+    "react": "0.12.x"
   },
   "devDependencies": {
     "browserify": "^5.11.0",

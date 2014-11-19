@@ -10,9 +10,9 @@ module.exports = {
     errors = errors || {};
 
     var getChildValidators = function(child){
-      var field = child.props.field;
+      var field = child && child.props && child.props.field;
       if(field === undefined){
-        if(child.props.children){
+        if(child.props && child.props.children){
           // make sure to find nested children
           return cloneWithProps(child, {
             children: React.Children.map(child.props.children, getChildValidators)
