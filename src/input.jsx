@@ -170,6 +170,7 @@ var Input = React.createClass({displayName: 'Input',
   renderFormGroup: function (children) {
     var classes = {
       'form-group': true,
+      'form-input': true,
       'has-feedback': this.props.hasFeedback,
       'has-success': this.props.bsStyle === 'success',
       'has-warning': this.props.bsStyle === 'warning',
