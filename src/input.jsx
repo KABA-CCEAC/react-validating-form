@@ -161,8 +161,8 @@ var Input = React.createClass({displayName: 'Input',
 
     return this.props.label ? (
       React.DOM.label( {htmlFor:this.props.id, className:classSet(classes), key:"label"}, 
-        children,
-        this.props.label
+        this.props.label,
+        children
       )
     ) : children;
   },
