@@ -199,13 +199,12 @@ var Input = React.createClass({displayName: 'Input',
     }
     else {
       return this.renderFormGroup([
-        this.renderLabel(),
+        this.renderLabel(this.renderHelp()),
         this.renderWrapper([
           this.renderInputGroup(
             this.renderInput()
           ),
-          this.renderIcon(),
-          this.renderHelp()
+          this.renderIcon()
         ])
       ]);
     }
